@@ -4,11 +4,11 @@
 <head>
   <meta charset="UTF-8">
   <title>TITLE</title>
-  <!-- FONT AWESOME -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat|Pacifico&display=swap&subset=latin-ext" rel="stylesheet">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, user-scalable=yes">
   <link rel="stylesheet" href="styles.css">
-  <link rel="icon" href="favicon.ico" type="image/ico">
+  <link rel="icon" href="favicon.png" type="image/ico">
   <meta name="author" content="Paulina Weiher">
   <meta name="keywords" content="XXXXXXXXXXXXXXXXXXXXXXXXXXXXXxxxxx">
   <meta name="description" content="XXXXXXXXXXXXXXXXXXXXXXXXXx">
@@ -21,10 +21,15 @@
     <!--User Story #9: The navbar element
       should contain one header element
       which contains text that describes the topic of the technical documentation.  -->
-    <header>Project pan
+    <header><img src="project-pan-polska-logo.png" alt="Project Pan Polska logo" id="logo"><h1>Project pan</h1>
     </header>
     <!--User Story #11: The header element in the navbar
         must come before any link (a) elements in the navbar.  -->
+        <div id="burger">
+          <div class="burger"></div>
+          <div class="burger"></div>
+          <div class="burger"></div>
+        </div>
     <ol>
       <!--User Story #10: Additionally, the navbar should contain
           link (a) elements with the class of nav-link.
@@ -41,12 +46,12 @@
       <!--User Story #14: On regular sized devices (laptops, desktops),
           the element with id="navbar" should be shown on the left side of the screen
           and should always be visible to the user.  -->
-      <li><a href="#coto" class="nav-link">Co to jest "project pan"?</a></li>
-      <li><a href="#poco" class="nav-link">Dlaczego warto podjąć wyzwanie "project pan"?</a></li>
-      <li><a href="#palette" class="nav-link">Co to jest "pan that palette"?</a></li>
-      <li><a href="#wyzwania" class="nav-link">Różne wyzwania "project pan"</a></li>
-      <li><a href="#inspiracje" class="nav-link">Gdzie szukać inspiracji?</a></li>
-      <li><a href="#autor" class="nav-link">Autor strony</a></li>
+      <li><a href="#Co_to_jest_project_pan?" class="nav-link">Co to jest project pan?</a></li>
+      <li><a href="#Dlaczego_warto_podjąć_wyzwanie_project_pan?" class="nav-link">Dlaczego warto podjąć wyzwanie project pan?</a></li>
+      <li><a href="#Co_to_jest_pan_that_palette?" class="nav-link">Co to jest pan that palette?</a></li>
+      <li><a href="#Różne_wyzwania_project_pan" class="nav-link">Różne wyzwania project pan</a></li>
+      <li><a href="#Gdzie_szukać_inspiracji?" class="nav-link">Gdzie szukać inspiracji?</a></li>
+      <li><a href="#Autor_strony" class="nav-link">Autor strony</a></li>
     </ol>
   </nav>
 
@@ -66,40 +71,34 @@
 
     <!--User Story #6: The .main-section elements
     should contain at least 5 code elements total (not each).  -->
-    <section class="main-section" id="coto">
+    <section class="main-section" id="Co_to_jest_project_pan?">
       <!--User Story #3: The first element within each .main-section
       should be a header element
       which contains text that describes the topic of that section.  -->
-      <header>Co to jest "project pan"?
+      <header>Co to jest project pan?
       </header>
       <!--User Story #5: The .main-section elements
       should contain at least 10 p elements total (not each).  -->
-      <p></p>
-
-
-      <p></p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum in ante nulla. Praesent bibendum luctus urna, vel placerat augue. Mauris tincidunt eget risus quis cursus. Integer diam felis, tincidunt in urna in, accumsan semper massa. Nullam elit elit, facilisis sed fringilla eu, placerat sed urna. Quisque sollicitudin, lacus nec elementum varius, sem odio aliquam dui, et condimentum lacus dolor et justo. Pellentesque tempus orci ligula, dictum ultricies ex tincidunt at. Suspendisse auctor pellentesque lacus ut dapibus. Donec posuere sed purus sed ultricies. Proin dapibus volutpat turpis pulvinar venenatis.</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum in ante nulla. Praesent bibendum luctus urna, vel placerat augue. Mauris tincidunt eget risus quis cursus. Integer diam felis, tincidunt in urna in, accumsan semper massa. Nullam elit elit, facilisis sed fringilla eu, placerat sed urna. Quisque sollicitudin, lacus nec elementum varius, sem odio aliquam dui, et condimentum lacus dolor et justo. Pellentesque tempus orci ligula, dictum ultricies ex tincidunt at. Suspendisse auctor pellentesque lacus ut dapibus. Donec posuere sed purus sed ultricies. Proin dapibus volutpat turpis pulvinar venenatis.</p>
     </section>
-    <section class="main-section" id="poco">
-      <header>
-        Dlaczego warto podjąć wyzwanie "project pan"?
+    <section class="main-section" id="Dlaczego_warto_podjąć_wyzwanie_project_pan?">
+      <header>Dlaczego warto podjąć wyzwanie project pan?
       </header>
-      <p></p>
-      <p></p>
+      <p>Aliquam odio magna, aliquam a nibh et, vehicula mattis sapien. Pellentesque cursus nunc vel interdum tempus. Quisque sem lectus, lobortis at vehicula vel, congue interdum metus. Pellentesque suscipit ipsum et odio congue tincidunt. In in dignissim lorem, vitae gravida lacus. Ut aliquet porttitor blandit. In efficitur velit metus, quis luctus ex euismod nec. Quisque iaculis laoreet pellentesque. Suspendisse ex dui, sollicitudin quis semper ut, commodo nec ex. In venenatis arcu et tristique efficitur. Nulla eget fermentum felis. Nam dapibus euismod felis. Quisque lacinia malesuada turpis sit amet euismod. Maecenas mauris mi, molestie efficitur euismod vel, molestie ac tellus. Nunc ultrices ante quis leo ullamcorper, eu tincidunt nisi suscipit.</p>
+      <p>Vestibulum vel dolor lectus. Ut tincidunt risus et rhoncus cursus. Fusce velit ex, gravida nec eros sed, imperdiet commodo turpis. Nullam vel quam id odio elementum tempus nec ac leo. Pellentesque eu sem erat. Nunc vestibulum sodales odio, eget fringilla lectus. Pellentesque eu pharetra ipsum, at sollicitudin felis. Fusce rhoncus et ipsum at pulvinar. Aenean vulputate accumsan risus ut pretium.</p>
     </section>
-    <section class="main-section" id="palette">
-      <header>
-        Co to jest "pan that palette"?
+    <section class="main-section" id="Co_to_jest_pan_that_palette?">
+      <header>Co to jest pan that palette?
       </header>
-      <p></p>
-      <p></p>
+      <p>Nam euismod vulputate semper. Fusce in eleifend nibh. Proin at mauris vel enim euismod venenatis. In mi enim, pretium at elit et, sagittis maximus ex. Vivamus gravida ut elit et semper. Pellentesque facilisis ante lacus, quis aliquet nunc aliquam ullamcorper. Integer sed fermentum eros. Fusce accumsan ligula sed nulla facilisis tincidunt. Integer laoreet lorem vitae fringilla varius. Curabitur turpis mauris, tincidunt sed ultricies a, bibendum vitae felis. Maecenas luctus venenatis urna vitae ultricies. Nulla a erat quis est blandit malesuada. Vivamus sed ipsum consequat, aliquam est vitae, scelerisque ex. Duis faucibus a dui eget malesuada. Duis viverra hendrerit ipsum id luctus.</p>
+      <p>Nam euismod vulputate semper. Fusce in eleifend nibh. Proin at mauris vel enim euismod venenatis. In mi enim, pretium at elit et, sagittis maximus ex. Vivamus gravida ut elit et semper. Pellentesque facilisis ante lacus, quis aliquet nunc aliquam ullamcorper. Integer sed fermentum eros. Fusce accumsan ligula sed nulla facilisis tincidunt. Integer laoreet lorem vitae fringilla varius. Curabitur turpis mauris, tincidunt sed ultricies a, bibendum vitae felis. Maecenas luctus venenatis urna vitae ultricies. Nulla a erat quis est blandit malesuada. Vivamus sed ipsum consequat, aliquam est vitae, scelerisque ex. Duis faucibus a dui eget malesuada. Duis viverra hendrerit ipsum id luctus.</p>
     </section>
-    <section class="main-section" id="wyzwania">
-      <header>
-        Różne wyzwania "project pan"
+    <section class="main-section" id="Różne_wyzwania_project_pan">
+      <header>Różne wyzwania project pan
       </header>
-      <p></p>
+      <p>Duis ornare ac elit quis blandit. Maecenas tincidunt lorem eu dolor elementum aliquet. Etiam sed risus et urna placerat tincidunt. Vivamus pellentesque ex viverra accumsan luctus. Mauris varius felis rutrum, cursus enim vel, semper diam. Nullam viverra sem dolor, sed venenatis velit iaculis eget. Vivamus id dui pulvinar, ornare dolor sagittis, semper mi.</p>
       <!-- User Story #7: The .main-section elements should contain at least 5 li items total (not each). -->
-
       <ul>
         <li></li>
         <li></li>
@@ -108,26 +107,26 @@
         <li></li>
         <li></li>
       </ul>
-      <p></p>
+      <p>Duis ornare ac elit quis blandit. Maecenas tincidunt lorem eu dolor elementum aliquet. Etiam sed risus et urna placerat tincidunt. Vivamus pellentesque ex viverra accumsan luctus. Mauris varius felis rutrum, cursus enim vel, semper diam. Nullam viverra sem dolor, sed venenatis velit iaculis eget. Vivamus id dui pulvinar, ornare dolor sagittis, semper mi.</p>
     </section>
-    <section class="main-section" id="inspiracje">
-      <header>
-        Gdzie szukać inspiracji?
+
+    <section class="main-section" id="Gdzie_szukać_inspiracji?">
+      <header>Gdzie szukać inspiracji?
       </header>
-      <p></p>
-      <p></p>
+      <p>Suspendisse vulputate pulvinar metus, ac tristique dolor congue vitae. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Praesent cursus lectus non imperdiet molestie. Morbi a nunc eu mauris dignissim condimentum at egestas ligula. Suspendisse condimentum in nisi quis pharetra. Nunc tincidunt non orci at malesuada. Duis mi orci, cursus sed lacinia sodales, fringilla vel ligula.</p>
+      <p>Aliquam nisl arcu, egestas ac mauris non, lobortis pharetra sapien. In ut est vel augue tincidunt consectetur ac sit amet justo. Fusce pellentesque leo a ex vestibulum interdum. Nullam suscipit justo finibus leo tincidunt, non eleifend erat rhoncus. Ut quis enim quis erat rhoncus vehicula et in velit. Fusce cursus mauris quis nisi aliquam viverra. Pellentesque aliquet molestie lacus, et fringilla massa vehicula vel. Fusce pretium nunc eu lacus molestie mollis. Sed ac elit in tellus tempus mattis. Vivamus blandit quis dolor a vehicula. Nunc placerat odio a ante feugiat elementum. Integer vestibulum pellentesque lacus in condimentum. Mauris nec enim ante. Curabitur mollis congue odio, non rutrum lacus. Etiam vehicula pellentesque augue, non semper ligula egestas eu.</p>
     </section>
-    <section class="main-section" id="autor">
-      <header>
-        Autor strony
+
+    <section class="main-section" id="Autor_strony">
+      <header>Autor strony
       </header>
-      <p></p>
-      <code></code>
-      <code></code>
-      <code></code>
-      <code></code>
-      <code></code>
-      <p></p>
+      <p>Suspendisse vulputate pulvinar metus, ac tristique dolor congue vitae. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Praesent cursus lectus non imperdiet molestie. Morbi a nunc eu mauris dignissim condimentum at egestas ligula. Suspendisse condimentum in nisi quis pharetra. Nunc tincidunt non orci at malesuada. Duis mi orci, cursus sed lacinia sodales, fringilla vel ligula.</p>
+      <code>Cienistość</code>
+      <code>fb</code>
+      <code>insta</code>
+      <code>blog</code>
+      <code>twitter</code>
+      <p>Suspendisse vulputate pulvinar metus, ac tristique dolor congue vitae. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Praesent cursus lectus non imperdiet molestie. Morbi a nunc eu mauris dignissim condimentum at egestas ligula. Suspendisse condimentum in nisi quis pharetra. Nunc tincidunt non orci at malesuada. Duis mi orci, cursus sed lacinia sodales, fringilla vel ligula.</p>
     </section>
 
   </main>

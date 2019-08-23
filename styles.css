@@ -5,15 +5,17 @@
 body {
   margin: 0;
   padding: 0;
-  --darkaccent: #222222;
-  --lightaccent: #aaaaaa;
-  --bcgcolor: #eeeeee;
+  --dark: #333333;
+  --accent: #d63b44;
+  --light: #eeeeee;
   font-family: ;
   color: var(--darkaccent);
+  font-family: 'Montserrat', sans-serif;
+  overflow-x: hidden;
 }
 
 /*======= A LINK DEFAULT CSS ===========
-<!-- a:link, a:visited {
+<!--a:link, a:visited {
   color: (internal value);
   text-decoration: underline;
   cursor: auto;
@@ -22,10 +24,121 @@ body {
 a:link:active, a:visited:active {
   color: (internal value);
 }*/
-/*======= SECTION =========== */
-/*======= SECTION =========== */
-/*======= SECTION =========== */
-/*======= SECTION =========== */
+
+/*======= NAVIGATION HEADER MOBILE =========== */
+#navbar {
+  width: 100vw;
+  height: 15vh;
+  min-height: 4rem;
+  color: var(--light);
+  background-color: var(--dark);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: 'Pacifico', cursive;
+}
+
+h1 {
+  font-size: 2rem;
+  padding: 0.5em;
+  font-style: normal;
+}
+
+#logo {
+  height: 3rem;
+  width: 3rem;
+}
+
+.burger {
+  background-color: white;
+  width: 2rem;
+  height: 5px;
+  margin: 0.5em;
+}
+
+#burger:hover {
+  background-color: var(--accent);
+}
+
+footer a, #navbar a, #navbar a:visited, footer a:visited {
+  text-decoration: none;
+  color: white;
+  }
+
+#navbar a:active, #navbar a:hover {
+  text-decoration: underline;
+
+  color: var(--accent);
+  }
+
+#navbar ol {
+  position: absolute;
+  top: 3.5rem;
+  right:0;
+  height: 80vh;
+  width: 75vw;
+  background-color: var(--dark);
+  padding-right: 1.5em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  display: none;
+}
+
+#navbar li {
+  list-style: none;
+    }
+
+/*======= MAIN SECTIONS =========== */
+
+main section {
+  padding: 3em;
+}
+
+main section:nth-child(even) {
+  background-color: var(--light);
+}
+
+main header {
+  text-align: left;
+  font-size: 2rem;
+  margin: 3rem 0 0;
+  }
+
+
+/*======= FOOTER =========== */
+
+footer {
+  width: 100vw;
+  height: 3rem;
+  text-align: center;
+  color: white;
+  background-color: var(--dark);
+  padding: 1em;
+}
+
+
+footer a:active, footer a:hover {
+  text-decoration: underline;
+}
+
+/*======= MEDIA query =========== */
+
+@media (min width > 1024px) {}
+
+#burger {
+  display: none;
+}
+
+
 /*======= SECTION =========== */
 /*======= SECTION =========== */
 /*======= SECTION =========== */
@@ -35,7 +148,3 @@ should use at least one media query. -->*/
 /*--User Story #14: On regular sized devices (laptops, desktops),
 the element with id="navbar" should be shown on the left side of the screen
 and should always be visible to the user.  -->*/
-
-@media (min width > 1024px) {
-  
-}
