@@ -1,28 +1,30 @@
 <!doctype html>
-<html lang="en" dir="ltr">
+<html lang="pl" dir="ltr">
 
 <head>
   <meta charset="UTF-8">
-  <title>TITLE</title>
+  <title>Project Pan Polska</title>
   <link href="https://fonts.googleapis.com/css?family=Montserrat|Pacifico&display=swap&subset=latin-ext" rel="stylesheet">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, user-scalable=yes">
   <link rel="stylesheet" href="styles.css">
   <link rel="icon" href="favicon.png" type="image/ico">
-  <meta name="author" content="Paulina Weiher">
-  <meta name="keywords" content="XXXXXXXXXXXXXXXXXXXXXXXXXXXXXxxxxx">
-  <meta name="description" content="XXXXXXXXXXXXXXXXXXXXXXXXXx">
+  <meta name="author" content="Paulina Weiher cienistosc.pl">
+  <meta name="keywords" content="project pan, polska, pan that palette">
+  <meta name="description" content="Wszystko o project pan i pan that palette - zużywanie i denkowanie kosmetyków do makijażu w formie wyzwania i zabawy">
 </head>
 
 <body>
+<div id="overlay" class="open"></div>
+
 
   <!--User Story #8: I can see a nav element with a corresponding id="navbar".  -->
   <nav id="navbar">
     <!--User Story #9: The navbar element
       should contain one header element
       which contains text that describes the topic of the technical documentation.  -->
-    <header><img src="project-pan-polska-logo.png" alt="Project Pan Polska logo" id="logo"><h1>Project pan</h1>
-    </header>
+    <header><img src="project-pan-polska-logo.png" alt="Project Pan Polska logo" id="logo"><a href="#"><h1>Project pan</h1>
+    </a></header>
     <!--User Story #11: The header element in the navbar
         must come before any link (a) elements in the navbar.  -->
         <div id="burger">
@@ -30,7 +32,7 @@
           <div class="burger"></div>
           <div class="burger"></div>
         </div>
-    <ol>
+    <ol id="menu" class="open">
       <!--User Story #10: Additionally, the navbar should contain
           link (a) elements with the class of nav-link.
           There should be one for every element with the class main-section.  -->
@@ -136,7 +138,7 @@
   </footer>
 
   <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
-  <script src="main.js"></script>
+  <script src="script.js"></script>
 </body>
 
 </html>
